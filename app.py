@@ -9,10 +9,7 @@ def show_menu():
     print("3. Delete Task")
     print("4. Exit")
 
-def add_task():
-    task = input("Enter task: ")
-    tasks.append(task)
-    print("Task added!")
+
 
 def view_tasks():
     if not tasks:
